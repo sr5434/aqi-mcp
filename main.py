@@ -17,8 +17,6 @@ def get_aqi(location: str) -> dict:
     location = geocode_res[0]["geometry"]["location"]
     lat = location["lat"]
     lng = location["lng"]
-    lat = 40.61033339999999
-    lng = -74.6336239
 
     aqi_res = requests.post(
         f"https://airquality.googleapis.com/v1/currentConditions:lookup?key={os.getenv('GOOGLE_MAPS_API_KEY')}",
