@@ -1,0 +1,2 @@
+# Air Quality MCP Server
+Allow LLMs to use the Google Air Quality API to get the universal AQI, as well as health advisories and other statistics for anywhere in the world. I personally tested this with Google Cloud Run, so it is not guaranteed(although it should) to work on other services.
